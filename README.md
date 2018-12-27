@@ -1,6 +1,6 @@
 # Season
 A beautiful card calendar.
-![Season](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/img_season.jpg)
+![Season](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/season-567.png)
 
 Fir内测下载地址: https://fir.im/weforSeason
 
