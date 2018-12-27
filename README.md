@@ -4,6 +4,6 @@ A beautiful card calendar.
 
 Fir内测下载地址: https://fir.im/weforSeason
 
-Google Player: https://play.google.com/store/apps/details?id=top.wefor.season
+Google Player（待审核）: https://play.google.com/store/apps/details?id=top.wefor.season
 
 you can report bug or provide idea on Issues.
