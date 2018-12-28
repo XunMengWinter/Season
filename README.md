@@ -3,6 +3,8 @@ A beautiful card calendar.
 
 📅日历、图片分享模版、🎵音乐播放器。
 
+音乐播放器触发: 依次打开第一张到第七张卡片。
+
 Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 
 ![Season](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/season-567.png)
