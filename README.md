@@ -28,7 +28,7 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 
 > 每一张卡片也像一颗琴键，每张都能弹奏出不同旋律；
 
-> 卡片卡片，请赐予我彩蛋。
+> ......卡片卡片，请赐予我彩蛋。
 
 ##### 音乐彩蛋
 已完成的彩蛋——音乐播放器。
@@ -36,9 +36,17 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 成功触发不仅可以解锁CD转盘，还能呼起歌手封面呵～🎵
 ![Season Music](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/img_season_jay_ljf.jpg)
 触发提示：
-> 七音符。
+> 七音符
 
 p.s. 音乐彩蛋触发后会一直生效，若需关闭，相反操作即可。
+
+##### 摄影彩蛋
+Season定位为精美的illustration卡片日历，而与此类似的便是photography. 
+
+National Geographic 彩蛋 ～
+
+触发提示：
+> 分享，ng.json
 
 
 ### APK下载
@@ -48,6 +56,9 @@ Fir: https://fir.im/weforSeason
 
 ### 互动
 内容（欢迎编辑与提供文案）: http://icemono.oss-cn-hangzhou.aliyuncs.com/calendar/all.json
+
+如果你想使用制作自己的Season日历（其他人也能使用），请提供如上链接格式的json文本。
+
 
 在Issues区提交建议与反馈，或者给我发邮件都行。
 
