@@ -53,4 +53,7 @@ Fir: https://fir.im/weforSeason
 
 📮 XunMengWinter@gmail.com
 
+Wechat公众号: Winter喵
+
+
 you can report bug or provide idea on Issues.
