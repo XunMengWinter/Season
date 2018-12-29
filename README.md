@@ -9,7 +9,6 @@ For android.
 
 Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 
-阿里云: http://icemono.oss-cn-hangzhou.aliyuncs.com/apk/Season.apk
 
 #### 横屏首页
 ![Season](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/season-567.png)
@@ -42,8 +41,16 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 p.s. 音乐彩蛋触发后会一直生效，若需关闭，相反操作即可。
 
 
-Fir下载地址: https://fir.im/weforSeason
+### APK下载
+阿里云: http://icemono.oss-cn-hangzhou.aliyuncs.com/apk/Season.apk
 
+Fir: https://fir.im/weforSeason
+
+### 互动
 内容（欢迎编辑与提供文案）: http://icemono.oss-cn-hangzhou.aliyuncs.com/calendar/all.json
+
+在Issues区提交建议与反馈，或者给我发邮件都行。
+
+📮 XunMengWinter@gmail.com
 
 you can report bug or provide idea on Issues.
