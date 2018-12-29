@@ -16,7 +16,9 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 
 
 #### DIY分享页
-DIY开始时的日历图 -> DIY完成时的图 -> 分享出去的效果图
+点击文字或图片即可更改。
+
+下图从左至右分别是: DIY开始时的日历图 -> DIY完成时的图 -> 分享出去的效果图
 ![Season DIY](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/season-diy-small-2.jpg)
 
 Fir下载地址: https://fir.im/weforSeason
