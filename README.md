@@ -44,7 +44,8 @@ p.s. 音乐彩蛋触发后会一直生效，若需关闭，相反操作即可。
 Season定位为精美的illustration卡片日历，而与此类似的便是photography. 
 
 National Geographic 彩蛋 ～
-
+屏首页
+![Season](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/img_season_ng.jpg)
 触发提示：
 > 分享，ng.json
 
