@@ -25,7 +25,7 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 突然觉得单纯卡片式插图日历虽然挺好看了，但是可玩性还不够，便想象像游戏一样内置彩蛋，那么快来寻找吧～
 
 彩蛋触发提示：
-每一张卡片就像一扇门，也许打开便进入了爱丽丝仙境；
+> 每一张卡片就像一扇门，也许打开便进入了爱丽丝仙境；
 每一张卡片也像一颗琴键，每张都能弹奏出不同旋律；
 卡片卡片，请赐予我彩蛋。
 
@@ -35,7 +35,7 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 成功触发不仅可以解锁CD转盘，还能呼起歌手封面呵～🎵
 ![Season Music](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/img_season_jay_ljf.jpg)
 触发提示：
-七音符。
+> 七音符。
 
 p.s. 音乐彩蛋触发后会一直生效，若需关闭，相反操作即可。
 
