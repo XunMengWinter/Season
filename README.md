@@ -26,7 +26,9 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 
 彩蛋触发提示：
 > 每一张卡片就像一扇门，也许打开便进入了爱丽丝仙境；
+
 > 每一张卡片也像一颗琴键，每张都能弹奏出不同旋律；
+
 > 卡片卡片，请赐予我彩蛋。
 
 ##### 音乐彩蛋
