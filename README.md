@@ -11,7 +11,12 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 
 阿里云: http://icemono.oss-cn-hangzhou.aliyuncs.com/apk/Season.apk
 
+#### 横屏首页
 ![Season](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/season-567.png)
+
+
+#### DIY分享页
+![Season DIY](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/season-diy-small.jpg)
 
 Fir下载地址: https://fir.im/weforSeason
 
