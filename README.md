@@ -30,11 +30,14 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 卡片卡片，请赐予我彩蛋。
 
 ##### 音乐彩蛋
-已完成一个彩蛋——音乐播放器。
+已完成的彩蛋——音乐播放器。
 
 成功触发不仅可以解锁CD转盘，还能呼起歌手封面呵～🎵
 ![Season Music](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/img_season_jay_ljf.jpg)
+触发提示：
+七音符。
 
+p.s. 音乐彩蛋触发后会一直生效，若需关闭，相反操作即可。
 
 
 Fir下载地址: https://fir.im/weforSeason
