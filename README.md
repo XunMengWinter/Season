@@ -11,7 +11,7 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 
 
 #### 横屏首页
-![Season](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/season-567.png)
+![Season](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/season-567.jpg)
 
 
 #### DIY分享页
@@ -41,13 +41,12 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 p.s. 音乐彩蛋触发后会一直生效，若需关闭，相反操作即可。
 
 ##### 摄影彩蛋
-Season定位为精美的illustration卡片日历，而与此类似的便是photography. 
+Season定位为精美的卡片式插画日历，而与illustration类似的便是photography.
 
 National Geographic 彩蛋 ～
-屏首页
-![Season](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/img_season_ng.jpg)
+![Season Photography](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/img_season_ng.jpg)
 触发提示：
-> 分享，ng.json
+> 两步。分享、ng.json
 
 
 ### APK下载
