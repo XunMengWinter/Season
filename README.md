@@ -16,7 +16,7 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 
 
 #### DIY分享页
-![Season DIY](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/season-diy-small.jpg)
+![Season DIY](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/season-diy-small-2.jpg)
 
 Fir下载地址: https://fir.im/weforSeason
 
