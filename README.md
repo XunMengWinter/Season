@@ -48,6 +48,16 @@ National Geographic 彩蛋 ～
 > 两步。分享、ng.json
 
 
+### Thanks
+[Erick Chévez](https://dribbble.com/shots/4887127-The-cold-escape)
+
+[Dribbble](https://dribbble.com/IceWinter/likes)
+
+[Pinterest](https://www.pinterest.com/ice1627/your-pinterest-likes/)
+
+...[More is here](https://github.com/XunMengWinter/Season/blob/master/thanks.md)
+
+
 ### APK下载
 阿里云: http://icemono.oss-cn-hangzhou.aliyuncs.com/apk/Season.apk
 
@@ -67,4 +77,4 @@ Fir: https://fir.im/weforSeason
 Wechat公众号: Winter喵
 
 
-you can report bug or provide idea on [Issues](https://github.com/XunMengWinter/Season/issues).
+you can report bug or contribute idea on [Issues](https://github.com/XunMengWinter/Season/issues).
