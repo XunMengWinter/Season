@@ -67,4 +67,4 @@ Fir: https://fir.im/weforSeason
 Wechat公众号: Winter喵
 
 
-you can report bug or provide idea on Issues.
+you can report bug or provide idea on [Issues](https://github.com/XunMengWinter/Season/issues).
