@@ -1,7 +1,7 @@
 # Season
 A beautiful card calendar for Android.
 
-📅日历、🖼图片分享模版、🎵音乐播放器。
+📅日历、🏞️图片分享模版、🎵音乐播放器。
 
 
 
