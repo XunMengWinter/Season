@@ -33,7 +33,7 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 已完成的彩蛋——音乐播放器。
 
 成功触发不仅可以解锁CD转盘，还能呼起歌手封面呵～🎵
-![Season Music](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/img_season_jay_ljf.jpg)
+![Season Music](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/img_season_jay_ljf_2.jpg)
 触发提示：
 > 七音符
 
