@@ -8,6 +8,12 @@ A beautiful card calendar for Android.
 Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 
 
+### 体验视频
+YouTube: https://youtu.be/iwn4tULCDGY
+
+腾讯视频: 
+
+
 #### 横屏首页
 ![Season](http://icemono.oss-cn-hangzhou.aliyuncs.com/images/season-567.jpg)
 
