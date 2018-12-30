@@ -9,7 +9,7 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 
 
 ### 体验视频
-![YouTube: Calendar Season experience](https://youtu.be/iwn4tULCDGY)
+[![YouTube: Calendar Season experience](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/iwn4tULCDGY)
 
 腾讯视频: 
 
