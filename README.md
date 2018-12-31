@@ -11,7 +11,7 @@ Google Play: https://play.google.com/store/apps/details?id=top.wefor.season
 ### 体验视频
 [📽YouTube: Calendar Season experience](https://youtu.be/iwn4tULCDGY)
 
-腾讯视频: 
+[🐧腾讯视频: 卡片式日历Season 7分钟体验](https://v.qq.com/x/page/t0821ls6fj9.html)
 
 
 #### 横屏首页
