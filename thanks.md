@@ -6,7 +6,7 @@ Thanks [CAT-L 🔥](https://dribbble.com/shots/5429193-Beautiful-scenery-calenda
 
 Thanks [Dribbble](https://dribbble.com/IceWinter/likes) & [Pinterest](https://www.pinterest.com/ice1627/pins/) and the Illustrators for excellent illustration.
 
-Thanks Lisa for text font guide.
+Thanks [Lisa](http://huaban.com/jianglisha) for text font guide.
 
 Thanks [IconFont](https://www.iconfont.cn) for icons.
 
