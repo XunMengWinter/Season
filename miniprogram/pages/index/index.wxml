@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="item-container" wx:for="{{[1,2,3,4,5,6,7]}}">
+
+  <image class="card-image" src="https://img.zcool.cn/community/01c08a5fd9ccb811013ee04de95cf9.jpg@520w_390h_1c_1e_1o_100sh.jpg"></image>
+  <view>7月23日</view>
+  <view>农历：六月初二</view>
+</view>

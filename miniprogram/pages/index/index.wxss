@@ -1,0 +1,12 @@
+/**index.wxss**/
+
+.item-container{
+  position: flex;
+  flex-direction: column;
+  margin: 55rpx;
+}
+
+.card-image{
+  width: 640rpx;
+  height: 480rpx;
+}

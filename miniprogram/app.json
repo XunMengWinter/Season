@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "春夏秋冬万年历",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "日历"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "月历"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "小工具"
+      }
+    ]
+  }
+}
