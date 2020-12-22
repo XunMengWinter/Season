@@ -3,7 +3,7 @@ const app = getApp()
 
 Page({
   data: {
-
+    cards:[]
   },
 
   onLoad: function () {
@@ -13,6 +13,8 @@ Page({
       })
       return
     }
+
+    this.getCards()
   },
 
   onGetOpenid: function () {
@@ -35,6 +37,26 @@ Page({
       }
     })
   },
+
+  onPullDownRefresh(e){
+    this.getCards()
+  },
+
+  getCards(e) {
+    const that = this
+    wx.request({
+      url: 'https://icemono.oss-cn-hangzhou.aliyuncs.com/calendar/all.json',
+      data: {},
+      success: res => {
+        that.setData({
+          cards: res.data.data
+        })
+      },
+      fail: res => {
+
+      }
+    })
+  }
 
 
 })

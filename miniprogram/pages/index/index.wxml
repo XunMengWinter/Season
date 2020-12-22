@@ -1,7 +1,17 @@
 <!--index.wxml-->
-<view class="item-container" wx:for="{{[1,2,3,4,5,6,7]}}">
+<view class="card-container" wx:for="{{cards}}">
 
-  <image class="card-image" src="https://img.zcool.cn/community/01c08a5fd9ccb811013ee04de95cf9.jpg@520w_390h_1c_1e_1o_100sh.jpg"></image>
-  <view>7月23日</view>
-  <view>农历：六月初二</view>
+  <image class="card-image" src="{{item.image_url}}"></image>
+
+  <view class="card-b-container">
+    <view class="card-bl-container">
+      <text user-select="true" class="card-title">{{item.title}}</text>
+      <text user-select="true" class="card-summary">十一月初七</text>
+      <text user-select="true" class="card-detail">西北风袭百草衰，\n几番寒起一阳来...</text>
+    </view>
+    <view class="card-br-container">
+      <view class="card-day">21</view>
+      <view class="card-month">Dec</view>
+    </view>
+  </view>
 </view>

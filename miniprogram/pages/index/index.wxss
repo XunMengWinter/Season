@@ -1,12 +1,7 @@
 /**index.wxss**/
 
-.item-container{
+page {
   position: flex;
+  align-items: center;
   flex-direction: column;
-  margin: 55rpx;
-}
-
-.card-image{
-  width: 640rpx;
-  height: 480rpx;
 }

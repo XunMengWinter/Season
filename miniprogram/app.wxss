@@ -4,153 +4,107 @@
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-} 
+}
 
 button {
   background: initial;
 }
 
-button:focus{
+button:focus {
   outline: 0;
 }
 
-button::after{
+button::after {
   border: none;
 }
 
-
 page {
-  background: #f6f6f6;
+  background: #f1f1f1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.userinfo, .uploader, .tunnel {
-  margin-top: 40rpx;
-  height: 140rpx;
-  width: 100%;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-left: none;
-  border-right: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  transition: all 300ms ease;
+.space-h30 {
+  height: 30rpx;
 }
 
-.userinfo-avatar {
-  width: 100rpx;
-  height: 100rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-  background-size: cover;
+.card-container {
+  width: 592rpx;
+  height: 892rpx;
+  position: flex;
+  padding: 24rpx;
+  margin-top: 50rpx;
+  margin-bottom: 25rpx;
   background-color: white;
-}
-
-.userinfo-avatar:after {
-  border: none;
-}
-
-.userinfo-nickname {
-  font-size: 32rpx;
-  color: #007aff;
-  background-color: white;
-  background-size: cover;
-}
-
-.userinfo-nickname::after {
-  border: none;
-}
-
-.uploader, .tunnel {
-  height: auto;
-  padding: 0 0 0 40rpx;
   flex-direction: column;
-  align-items: flex-start;
-  box-sizing: border-box;
 }
 
-.uploader-text, .tunnel-text {
-  width: 100%;
-  line-height: 52px;
-  font-size: 34rpx;
-  color: #007aff;
-}
-
-.uploader-container {
-  width: 100%;
-  height: 400rpx;
-  padding: 20rpx 20rpx 20rpx 0;
+.card-b-container {
   display: flex;
-  align-content: center;
-  justify-content: center;
-  box-sizing: border-box;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.uploader-image {
-  width: 100%;
-  height: 360rpx;
-}
-
-.tunnel {
-  padding: 0 0 0 40rpx;
-}
-
-.tunnel-text {
-  position: relative;
-  color: #222;
+.card-bl-container {
   display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  width: 368rpx;
+  margin: 32rpx;
+  flex-direction: column;
 }
 
-.tunnel-text:first-child {
-  border-top: none;
-}
-
-.tunnel-switch {
-  position: absolute;
-  right: 20rpx;
-  top: -2rpx;
-}
-
-.disable {
-  color: #888;
-}
-
-.service {
-  position: fixed;
-  right: 40rpx;
-  bottom: 40rpx;
-  width: 140rpx;
-  height: 140rpx;
-  border-radius: 50%;
-  background: linear-gradient(#007aff, #0063ce);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+.card-br-container {
+  width: 128rpx;
+  margin: 16rpx;
   display: flex;
-  align-content: center;
-  justify-content: center;
-  transition: all 300ms ease;
+  flex-direction: column;
 }
 
-.service-button {
-  position: absolute;
-  top: 40rpx;
+.card-image {
+  width: 592rpx;
+  height: 592rpx;
 }
 
-.service:active {
-  box-shadow: none;
+.card-title {
+  /* 定义为自适应布局   */
+  display: -webkit-box;
+  /* 竖直方向的超出隐藏 */
+  -webkit-box-orient: vertical;
+  /* 超出部分隐藏 */
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  font-size: 48rpx;
 }
 
-.request-text {
-  padding: 20rpx 0;
-  font-size: 24rpx;
-  line-height: 36rpx;
-  word-break: break-all;
+.card-day {
+  font-size: 96rpx;
+  color: #555;
+  font-weight: 300;
+}
+
+.card-month {
+  font-size: 50rpx;
+  color: #ccc;
+  font-weight: 300;
+  margin-top: 32rpx;
+}
+
+.card-summary {
+  font-size: 28rpx;
+  color: #aaa;
+}
+
+.card-detail {
+  font-size: 28rpx;
+  color: #333;
+  font-weight: 300;
+  margin-top: 16rpx;
+  height: 120rpx;
+  /* 定义为自适应布局   */
+  display: -webkit-box;
+  /* 竖直方向的超出隐藏 */
+  -webkit-box-orient: vertical;
+  /* 超出部分隐藏 */
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  display: flex;
+  align-items: center;
 }
