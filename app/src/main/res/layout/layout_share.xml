@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/back_layout"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#8fff"
+             android:clickable="true"
+             android:focusable="true">
+
+    <ImageView
+        android:id="@+id/wechat_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_share_wechat"/>
+
+    <ImageView
+        android:id="@+id/moment_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_share_moment"/>
+
+    <ImageView
+        android:id="@+id/save_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_share_save"/>
+
+    <ImageView
+        android:id="@+id/api_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:alpha="0.01"
+        android:src="@drawable/ic_api"/>
+
+</FrameLayout>

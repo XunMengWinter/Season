@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <!--<color name="colorAccent">#D81B60</color>-->
+    <color name="colorAccent">#9867a3</color>
+    <color name="white">#fff</color>
+    <color name="card_bg">#fcfefe</color>
+    <color name="color_detail">#fafafafa</color>
+
+    <color name="colorW">#3000</color>
+    <color name="colorA">#8000</color>
+
+    <integer-array name="rainbow">
+        <item>@color/colorW</item>
+        <item>@color/colorW</item>
+        <item>@color/colorA</item>
+        <item>@color/colorW</item>
+        <item>@color/colorW</item>
+    </integer-array>
+</resources>

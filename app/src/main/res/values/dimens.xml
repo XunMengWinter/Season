@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_margin">32dp</dimen>
+    <dimen name="main_margin">16dp</dimen>
+    <dimen name="child_margin">8dp</dimen>
+
+    <dimen name="mini_keyboard_height">100dp</dimen>
+
+    <dimen name="gap">32dp</dimen>
+    <dimen name="text_title">28sp</dimen>
+    <dimen name="text_detail">14sp</dimen>
+    <dimen name="text_subtitle">14sp</dimen>
+    <dimen name="text_date">64dp</dimen>
+    <dimen name="text_month">24sp</dimen>
+    <dimen name="text_month_2">20sp</dimen>
+    <dimen name="text_week_2">16sp</dimen>
+    <dimen name="d2">4dp</dimen>
+</resources>

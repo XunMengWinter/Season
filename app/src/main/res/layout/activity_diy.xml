@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccc"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <Space
+                android:id="@+id/space"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/card_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/card_bg"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                >
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/big_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:src="@drawable/img_forrest"/>
+                <!--app:layout_constraintDimensionRatio="1"-->
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/title_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@null"
+                    android:textColor="#333"
+                    android:textSize="@dimen/text_title"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/big_iv"
+                    app:layout_constraintWidth_percent="0.55"
+                    app:layout_goneMarginTop="@dimen/main_margin"
+                    tools:text="FOREST"
+                    />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/subtitle_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/d2"
+                    android:background="@null"
+                    android:fontFamily="serif-monospace"
+                    android:textColor="#444"
+                    android:textSize="@dimen/text_subtitle"
+                    app:layout_constraintEnd_toEndOf="@id/title_tv"
+                    app:layout_constraintStart_toStartOf="@id/title_tv"
+                    app:layout_constraintTop_toBottomOf="@id/title_tv"
+                    tools:text="MOUNTAIN aaa"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/detail_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/main_margin"
+                    android:layout_marginBottom="@dimen/main_margin"
+                    android:background="@null"
+                    android:fontFamily="serif-monospace"
+                    android:textColor="#555"
+                    android:textSize="@dimen/text_detail"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@id/title_tv"
+                    app:layout_constraintStart_toStartOf="@id/title_tv"
+                    app:layout_constraintTop_toBottomOf="@id/subtitle_tv"
+                    tools:text="This is a beautiful Mountain village where the sheep are crazing leisurely. The silent sunset and beautiful scenery."
+                    />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/date_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@null"
+                    android:fontFamily="serif-monospace"
+                    android:gravity="center"
+                    android:textColor="#8ea9b4"
+                    android:textSize="@dimen/text_date"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/big_iv"
+                    app:layout_constraintWidth_percent="0.35"
+                    tools:text="28"/>
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/month_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:fontFamily="serif-monospace"
+                        android:textColor="#ddd"
+                        android:gravity="center"
+                        android:textSize="@dimen/text_month"
+                        android:textStyle="bold"
+                        tools:text="Dec."
+                        android:layout_marginBottom="16dp"
+                        app:layout_constraintEnd_toEndOf="@id/date_tv"
+                        app:layout_constraintTop_toBottomOf="@id/date_tv"
+                        app:layout_constraintBottom_toTopOf="@id/qrcode_iv"
+                        app:layout_constraintStart_toStartOf="@id/date_tv"
+                        />
+
+                <ImageView
+                    android:id="@+id/qrcode_iv"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/child_margin"
+                    android:layout_marginBottom="@dimen/main_margin"
+                    android:contentDescription="QR Code"
+                    android:src="@drawable/ic_qrcode_logo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="2"
+                    app:layout_constraintEnd_toEndOf="@id/date_tv"
+                    app:layout_constraintStart_toStartOf="@id/date_tv"
+                    app:layout_constraintTop_toBottomOf="@id/month_tv"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="108dp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bg_bottom_bar"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/main_margin"
+        android:paddingBottom="@dimen/big_margin"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/back_iv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_back"/>
+
+        <Space
+            android:layout_width="1px"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/qrcode_edit_iv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_qrcode"/>
+
+        <ImageView
+            android:id="@+id/share_iv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_share"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/padding_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/main_margin"
+        android:layout_marginEnd="@dimen/main_margin"
+        android:padding="@dimen/child_margin"
+        app:layout_constraintBottom_toTopOf="@id/bottom_bar_layout"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

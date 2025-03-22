@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cat Calendar</string>
+
+    <string name="pageBehavior" translatable="false">top.wefor.season.widget.page.PageBehavior</string>
+    <string name="hint_music_secret">Bard:"Do you want to know a secret?" 🎐</string>
+    <string name="yes">I am listening</string>
+    <string name="no">No</string>
+    <string name="secret_music">Bard:"Try to open the 1st card to the 7th card, one by one, and you will found it.   If you don\'t like it, just open the 7th card to the 1st card."</string>
+    <string name="image_saved">Image saved</string>
+    <string name="image_save_permission">Save image need WRITE_EXTERNAL_STORAGE，please permit it in 「App Permission」.</string>
+    <string name="wonderful">Wonderful</string>
+    <string name="hint_api">Bard: Api name, e.g. \'ng.json\'</string>
+
+</resources>

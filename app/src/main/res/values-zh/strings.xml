@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_music_secret">走唱人:\n\n"Hi, 好久不见～\n\n这次我在苏门答腊发现了一个卡片的秘密，你想听听吗？" 🎐</string>
+    <string name="yes">来，说</string>
+    <string name="no">得了吧</string>
+    <string name="app_name">猫咪日历</string>
+    <string name="secret_music">走唱人:\n\n"在一个晴朗的午后，我正品着咖啡，结果你猜，我看到了什么！\n一个塔拉小孩拿着卡片一张张摆弄，半分钟后，卡片居然发出了动人的旋律！🎶
+        \n\n我赶紧问他：'卡片怎么能发出声！？'\n他得意地一笑：'如果你音乐课有听的话，一定知道7音符，do ri mi fa so la ti 音乐就出现🎵 ti la so fa mi ri do 音乐就消失'
+        \n\n听他这么一说，我就明白了，连忙翻开第1到第7张卡片，琴声果然出现！🎶"</string>
+    <string name="image_saved">图片已保存</string>
+    <string name="image_save_permission">保存图片需要读写权限，请在「系统设置-权限管理」中允许。</string>
+    <string name="wonderful">太棒了</string>
+    <string name="hint_api">走唱人：Api, 比如:ng.json</string>
+</resources>

@@ -1,0 +1,113 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+android {
+    signingConfigs {
+        release {
+//            keyAlias RELEASE_KEY_ALIAS
+//            storePassword RELEASE_STORE_PASSWORD
+//            storeFile file(RELEASE_STORE_FILE)
+//            keyPassword RELEASE_KEY_PASSWORD
+        }
+    }
+    compileSdk = 34
+    namespace "top.wefor.season"  // 添加这一行，使用你的实际包名
+    defaultConfig {
+//        if (project.isReleaseTask)
+        applicationId "top.wefor.season"
+//        else
+//            applicationId "top.wefor.test.season"
+        minSdkVersion 23
+        targetSdkVersion 34
+        versionCode 10
+        versionName "Winter"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "APK_DATE", "\"${System.currentTimeMillis()}\""
+        buildConfigField "String", "WX_KEY", "\"${WX_KEY}\""
+        buildConfigField "String", "SHARE_VERSION", "\"${1}\""
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles file('./proguard').listFiles()
+
+            signingConfig signingConfigs.release
+        }
+    }
+
+    // Enable the BuildConfig feature
+    buildFeatures {
+        buildConfig = true
+        viewBinding = true
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
+    }
+}
+
+dependencies {
+//    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+    implementation libs.androidx.ui.text.android
+    implementation libs.androidx.core
+//    testImplementation(libs.junit)
+//    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+
+    //图片加载Glide
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
+
+    //网络框架 okhttp+retrofit+rxjava+fastjson
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.11.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
+    implementation 'com.alibaba:fastjson:1.1.71.android'
+    implementation 'com.orhanobut:logger:2.2.0'
+    implementation 'com.github.tbruyelle:rxpermissions:0.10.2'
+
+    //zxing 二维码生成
+    implementation 'com.google.zxing:core:3.3.3'
+
+    //Tinker 热修复
+    implementation 'com.tencent.tinker:tinker-android-lib:1.9.1'
+    compileOnly('com.tencent.tinker:tinker-android-anno:1.9.1')
+
+    // 微信分享
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0'
+
+    implementation 'com.android.support:palette-v7:28.0.0'
+
+    implementation 'com.github.XunMengWinter:CircularAnim:0.4.6'
+
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.14'
+
+    implementation 'com.google.android.exoplayer:exoplayer:2.18.5'
+
+    implementation 'com.aliyun.dpa:oss-android-sdk:+'
+
+    implementation 'com.tencent:mmkv:1.3.9'
+
+    // 核心库依赖，包含 ComponentActivity
+    implementation "androidx.core:core-ktx:1.12.0"
+    // Media Session API
+    implementation "androidx.media:media:1.6.0"
+    implementation("androidx.appcompat:appcompat:1.7.0")
+
+}

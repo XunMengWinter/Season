@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<top.wefor.season.widget.page.PageContainer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/page_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_detail"
+    >
+
+    <include
+        android:id="@+id/content_layout"
+        layout="@layout/layout_detail_content"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/pageBehavior"
+        />
+</top.wefor.season.widget.page.PageContainer>
+
+
