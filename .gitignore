@@ -1,0 +1,64 @@
+.gradle
+/local.properties
+/.idea/caches/build_file_checksums.ser
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# ==============================
+# 💡 Android / Gradle 项目 .gitignore
+# ==============================
+
+### 🔹 编译文件（不需要提交）
+*.class
+*.apk
+*.aab
+*.dex
+*.o
+*.so
+*.obj
+*.bin
+*.lock
+*.json.lock
+
+### 🔹 IDE 相关文件（不需要提交）
+.idea/
+*.iml
+*.iws
+
+### 🔹 Gradle 相关文件（不需要提交）
+.gradle/
+local.properties
+/.cxx/
+.cxx/
+*.cxx*
+
+### 🔹 依赖缓存（可重新下载，不需要提交）
+/build/
+captures/
+externalNativeBuild/
+
+### 🔹 运行时文件（不需要提交）
+*.log
+*.cache
+*.DS_Store
+*.hprof
+
+### 🔹 生成的文件（可重新生成）
+/gen/
+out/
+
+### 🔹 NDK / JNI 相关（可重新编译）
+obj/
+*.ndk
+*.h
+
+### 🔹 Keystore（密钥文件，不要提交！）
+*.jks
+*.keystore
+*.pem
+*.p12
